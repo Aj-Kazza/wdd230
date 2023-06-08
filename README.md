@@ -6,8 +6,6 @@ The assignment github repository for the course WDD230 on BYU-I... yes, after 3 
 ## Asignments
 ---
 
-Asignments index can be viewed through this [link](https://aj-kazza.github.io/wdd230/).
-
 ### Weeks
 
 - Week 1

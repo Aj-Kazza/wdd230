@@ -1,5 +1,6 @@
 # **WDD 230 Assignment Stuff**
-The assignment github repository for the course WDD230 on BYU-I... yes, after 3 concurrent semesters I am finally making a README for this course, which now that I think about it is as fun as making comments
+The assignment github repository for the course WDD230 on BYU-I.
+4th time is the charm, fingers crossed.
 
 ---
 

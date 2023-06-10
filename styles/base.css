@@ -60,7 +60,7 @@ footer {
 
 header {
     display: grid;
-    max-height: auto;
+    height: auto;
     margin-bottom: 0;
     margin-top: 0;
     justify-content: center;

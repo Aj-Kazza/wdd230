@@ -13,4 +13,12 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .siteplan {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .siteplan h4, .siteplan p {
+        grid-column: 1 / span 2;
+    }
+
 }

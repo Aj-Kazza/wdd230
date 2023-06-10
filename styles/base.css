@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu&display=swap');
 header img {
     max-width: 100px;
     margin: 15px;
@@ -13,29 +12,33 @@ header img {
     align-items: center;
 }
 
+p, ul, li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 h1 {
     color: white;
     text-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
-    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     border-bottom: solid 2px black;
 }
 
 h3 {
     text-align: center;
-    background:rgb(255, 200, 0);
+    background:#FFD100;
     margin: 0;
     padding: 1rem;
 }
 
 
-li {
-    font-family: 'Roboto Condensed', sans-serif;
-}
 
 header,
 footer, 
@@ -87,19 +90,29 @@ footer {
 }
 
 .card {
-    border: solid 1px black;
+    border: solid 1px #4A3C01;
     border-radius:2%;
     margin: 10px;
-    background-color: rgb(227, 227, 227);
+    background-color: #E0E0E0;
 }
 .card p {
     text-align: center;
+    padding: 0.5rem;
+}
+.card img {
+    display: block;
+    margin: 1rem auto;
+    width: 75%;
+}
+
+h4 {
+    padding: 0.5rem;
 }
 
 nav {
     margin-top: 0;
     margin-bottom: 0;
-    background: rgb(38, 38, 38);
+    background: #4A3C01;
     display: grid;
     padding: 0;
 }
@@ -114,12 +127,12 @@ nav a{
 }
 
 .active {
-    background-color: rgb(255, 235, 156);
+    background-color: #FAE392;
     color: black;
 }
 
 nav a:hover {
-    color: rgb(255, 235, 156);
+    color: #FAE392;
 }
 nav .active:hover {
     color:black;

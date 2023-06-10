@@ -9,7 +9,7 @@ The assignment github repository for the course WDD230 on BYU-I.
 
 ### Weeks
 
-- Week 1
+- Week 1 - [Course Home Page](https://aj-kazza.github.io/wdd230/)
 - Week 2
 - Week 3
 - Week 4

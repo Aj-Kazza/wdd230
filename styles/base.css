@@ -111,7 +111,6 @@ nav {
     margin-top: 0;
     margin-bottom: 0;
     background: #4A3C01;
-    display: grid;
     padding: 0;
 }
 
@@ -131,7 +130,54 @@ nav a{
 
 nav a:hover {
     color: #FAE392;
+    font-weight: bold;
 }
 nav .active:hover {
     color:black;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: rgb(255, 196, 0);
+	color: #000;
+ 	position: relative;
+    width: 100%;
+}
+
+#menu:hover {
+    font-weight: bold;
+    background-color: #ffd643;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+#navigation {
+    display: none;
+}
+
+#navigation.open {
+    display: grid;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: #4A3C01;
+    padding: 0;
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	cursor: pointer;
+    background-color: #000000;
+    border-radius: 100%;
+    padding: 0.5rem;
 }

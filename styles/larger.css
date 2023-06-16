@@ -9,7 +9,8 @@
         text-align: left;
     }
 
-    nav {
+    #navigation {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
@@ -19,6 +20,10 @@
     }
     .siteplan h4, .siteplan p {
         grid-column: 1 / span 2;
+    }
+
+    #menu {
+        display: none;
     }
 
 }

@@ -1,0 +1,37 @@
+@media screen and (min-width:640px) {
+    header {
+        grid-template-columns: 1fr 2fr 1fr 5fr
+    }
+    #burger {
+        display: none;
+    }
+    #topnav {
+        display: block;
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+    header h1 {
+        font-size: 1.6rem;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .hero-image {
+        grid-column: 1 / span 4;
+    }
+    .event {
+        grid-column: 1 / span 3
+    }
+    .spotlight {
+        grid-column: 1 / span 4;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .spotlight h2 {
+        grid-column: 1 / span 4;
+    }
+}

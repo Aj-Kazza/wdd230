@@ -1,0 +1,109 @@
+header,
+footer {
+    background-color: #FFD100;
+}
+header {
+    display: grid;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    justify-content: center;
+    grid-template-columns: 1fr 3fr 1fr 1fr
+}
+header h2 {
+    margin-top: 0;
+    font-size: 3.5vw;
+    color: #a31621;
+}
+header h1 {
+    margin-bottom: 0;
+    font-size: 4.5vw;
+}
+.logo img {
+    width: 100%;
+}
+.socials {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    grid-gap: 10px;
+}
+.socials img {
+    width: 100%;
+}
+#burger {
+    height: 100%;
+    width: 100%;
+    background: #FFD100;
+    font-size: 2rem;
+}
+#burger:hover {
+    cursor: pointer;
+}
+#burger::before {
+    content: "☰";
+}
+#burger.open::before{
+    content: "✖";
+}
+#topnav {
+    grid-column: 1 / span 4;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: #4A3C01;
+    padding: 0;
+    text-align: center;
+    display: none;
+}
+#topnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    width: 100%;
+}
+#topnav a:hover{
+    color: #FAE392;
+    font-weight: bold;
+}
+#topnav.open {
+    display: grid;
+}
+#topnav .active {
+    background-color: #FAE392;
+    color: black;
+}
+#topnav .active:hover {
+    color:black;
+}
+
+
+
+
+
+
+
+p, ul, li, nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    padding: 0rem 1rem 1rem 1rem;
+    margin: 1rem;
+    font-family: sans-serif;
+}
+
+
+
+
+body section {
+    background: #E0E0E0;
+    border: solid 1px #4A3C01;
+    border-radius:2%;
+    padding: 10px;
+    margin: 10px;
+}

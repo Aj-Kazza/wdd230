@@ -10,39 +10,122 @@
   WDD 230 - Web Frontend Development at Brigham Young University - Idaho online."
     />
     <meta name="author" content="Ari-John Katia" />
-    <meta
-      name="og:title"
-      content="Chamber of Commerce - Tarawa"
-    />
+    <meta name="og:title" content="Chamber of Commerce - Tarawa" />
     <meta name="og:type" content="website" />
     <meta
       name="og:image"
       content="https://images.nightcafe.studio/jobs/ea44m8S8j5KX11jQTFDi/ea44m8S8j5KX11jQTFDi--3--7bzuw.jpg?tr=w-1600,c-at_max"
     />
-    <meta name="og:url" content="https://aj-kazza.github.io/wdd230/chamber/index.html" />
+    <meta
+      name="og:url"
+      content="https://aj-kazza.github.io/wdd230/chamber/index.html"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="icon" href="favicon.ico" />
     <title>Chamber of Commerce - Tarawa</title>
   </head>
   <body>
     <header>
-        <h1>Chamber of Commerce - Tarawa</h1>
+      <picture class="logo">
+        <img src="images/birb.png" alt="logo of bird, sun and waterey cloud" />
+      </picture>
+      <div>
+        <h1>Chamber of Commerce</h1>
+        <h2>Tarawa</h2>
+      </div>
+      <div class="socials">
+        <a href="www.facebook.com"><img src="images/fb.png" alt="" /></a>
+        <a href="www.linkedin.com"><img src="images/lin.png" alt="" /></a>
+      </div>
+      <button id="burger"></button>
+      <nav id="topnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+      </nav>
     </header>
-    <nav>
 
-    </nav>
     <main>
+      <div class="hero-image">
+        <div class="hero-text">
+          <button class="join">Join Chamber</button>
+        </div>
+      </div>
 
+      <section class="event">
+        <h2>Event</h2>
+        <h3>Event Name</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </section>
 
+      <section class="weather">
+        <h2>Weather</h2>
+        <h3>Temperature</h3>
+        <h4>sky</h4>
+        <div>
+          <p>windspeed:</p>
+          <p>windchill:</p>
+        </div>
+      </section>
+
+      <section class="spotlight">
+        <h2>Spotlight</h2>
+        <div>
+          <h3>spotlight1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div>
+          <h3>spotlight2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div>
+          <h3>spotlight3</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </section>
     </main>
     <footer>
-
+      <div>
+        <h3>Tarawa Chamber of Commerce</h3>
+        <p>Partment 2B 123 Complex Row</p>
+        <p>Bairiki, Tarawa KI0107</p>
+      </div>
+      <div>
+        <p>info@tarawacc.ki</p>
+        <p>+(686) 755 35355</p>
+        <a href="#">📍123 Complex Row</a>
+      </div>
+      <div>
+        <p>&copy; <span id="thisyear"></span> Tarawa Chamber</p>
+        <p class="seps">|</p>
+        <p><b>Ari-John Katia</b></p>
+        <p class="seps">|</p>
+        <p>WDD 230 Project</p>
+        <p class="seps">|</p>
+        <p>Last Updated: <span id="currentdate"></span></p>
+      </div>
     </footer>
-</body>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/burger.js"></script>
+  </body>
 </html>

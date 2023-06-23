@@ -26,4 +26,10 @@
         display: none;
     }
 
+    .hero {
+        grid-column: 1 / span 2;
+    }
+    .map {
+        grid-column: 1 / span 2;;
+    }
 }

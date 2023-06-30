@@ -3,6 +3,10 @@ form label {
 	padding: 10px;
 }
 
+form fieldset {
+	max-width: 90%;
+}
+
 form label input {
 	display: block;
 	background-color:rgb(238, 241, 244);

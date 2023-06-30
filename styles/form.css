@@ -1,0 +1,65 @@
+form label {
+	display: block;
+	padding: 10px;
+}
+
+form label input {
+	display: block;
+	background-color:rgb(238, 241, 244);
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: 0.75rem;
+	width: 90%;
+	max-width: 20rem;
+}
+
+form label input:required {
+	border-left: red solid 10px;
+}
+form label input:valid {
+	border-left: green solid 10px;
+}
+
+
+fieldset {
+	padding: 2 5px;
+}
+
+#r {
+	width: 300px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 1.5rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 2px;
+	width: 320px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+
+.slider {
+	border: 1px solid gray;
+	border-radius: 10px;
+	width: 300px;
+	padding: 10px 20px;
+	background-color:rgb(238, 241, 244);
+}
+
+form input.button {
+	border: none;
+	background-color: bisque;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 2rem 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+}

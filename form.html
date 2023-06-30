@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+          <h1>Form Submission</h1>
+        </div>
+      </header>
+      <button id="menu"></button>
+      <nav id="navigation">
+        <a href="#" class="active">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="week01/chamber-site-plan.html.html">Site Plan</a>
+        <a href="form.html">Form</a>
+      </nav>
+    <main>
+        <h2>Form Submission</h2>
+        <form action="record.html" method="get">
+            <fieldset>
+                <label>Username* <input type="text" name="uname" id="username" placeholder="enter username"
+                        required></label>
+                <label>Password* <input type="password" name="password1" placeholder="enter password" id="pwd1"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                        required></label>
+                <label>Confirm Password* <input type="password" placeholder="confirm password" name="password2"
+                        id="pwd2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></label>
+                <label>Email* <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                        title="Please enter a valid email address" placeholder="enter byui.edu email" required></label>
+                <label>Page Rating:</label>
+                <div class="slider">
+                    <div id="rangevalue">0</div>
+                    <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </div>
+
+                </label>
+
+
+            </fieldset>
+            <input type="submit" value="Record Form" class="button">
+        </form>
+    </main>
+    <footer>
+        <div>
+          <p id="copy">
+            &copy; <span id="thisyear"></span> | Ari-John Katia | Kiribati
+          </p>
+          <p class="update">Last Updated: <span id="currentdate"></span></p>
+        </div>
+      </footer>
+    <script src="scripts/forms.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/burger.js"></script>
+</body>
+
+</html>

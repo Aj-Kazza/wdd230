@@ -121,10 +121,10 @@ main {
     width: 100%;
 }
 .hero-text {
-    text-align: center;
+    text-align: right;
     position: absolute;
     top: 85%;
-    left: 80%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
@@ -146,18 +146,28 @@ main {
     color: #FAE392;
 }
 
-body section {
+main section {
     background: #E0E0E0;
     border: solid 1px #4A3C01;
     border-radius:2%;
     margin: 10px;
 }
 
-body section h2 {
+main section h2 {
     text-align: center;
     background:#FFD100;
     margin: 0;
     padding: 1rem;
+}
+
+main section img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+main section h3,h4,p {
+    padding: 0 15px;
 }
 
 .spotlight {
@@ -173,4 +183,45 @@ body section h2 {
 .spotlight div h3 {
     color: #a31621;
     text-align: center;
+}
+
+main .calendar iframe {
+    width: 100%;
+}
+
+main .poi {
+    padding: 10px;
+    border: solid 1px #4A3C01;
+    background-color: #4a3b015a;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+main .poi picture img {
+    width: 100%;
+    height: auto;
+}
+main .poi picture {
+    display:block;
+}
+.poi span {
+    background-color:#FAE392;
+    padding: 5px;
+}
+
+footer .copyright {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px black solid;
+}
+footer .bottomlogo h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+footer .bottomlogo h4 {
+    padding-top: 0;
+    margin-top: 0;
 }

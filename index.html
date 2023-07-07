@@ -1,135 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-      name="description"
-      content="Course assignment portal for Ari-John Katia in 
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Course assignment portal for Ari-John Katia in 
     WDD 230 - Web Frontend Development at Brigham Young University - Idaho online.">
-    <meta name="author" content="Ari-John Katia">
-    <meta
-      name="og:title"
-      content="Ari-John Katia - WDD 230 - Web Frontend Development">
-    <meta name="og:type" content="website">
-    <meta
-      name="og:image"
-      content="https://images.nightcafe.studio/jobs/ea44m8S8j5KX11jQTFDi/ea44m8S8j5KX11jQTFDi--3--7bzuw.jpg?tr=w-1600,c-at_max">
-    <meta name="og:url" content="https://aj-kazza.github.io/wdd230/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="favicon.ico">
-    <title>Ari-John Katia - WDD 230 - Web Frontend Development</title>
-  </head>
+  <meta name="author" content="Ari-John Katia">
+  <meta name="og:title" content="Ari-John Katia - WDD 230 - Web Frontend Development">
+  <meta name="og:type" content="website">
+  <meta name="og:image"
+    content="https://images.nightcafe.studio/jobs/ea44m8S8j5KX11jQTFDi/ea44m8S8j5KX11jQTFDi--3--7bzuw.jpg?tr=w-1600,c-at_max">
+  <meta name="og:url" content="https://aj-kazza.github.io/wdd230/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="icon" href="favicon.ico">
+  <title>Ari-John Katia - WDD 230 - Web Frontend Development</title>
+</head>
 
-  <body>
-    <div>
-      <header>
-        <div class="picture">
-          <p>
-            <img
-              src="images/profilepic.webp"
-              alt="Picture of me with an ukulele"
-              loading="lazy" />
-          </p>
+<body>
+  <div>
+    <header>
+      <div class="picture">
+        <p>
+          <img src="images/profilepic.webp" alt="Picture of me with an ukulele" loading="lazy" />
+        </p>
+      </div>
+      <div class="name">
+        <h1>Ari-John Katia</h1>
+      </div>
+      <div id="mode">🌙</div>
+    </header>
+    <button id="menu"></button>
+    <nav id="navigation">
+      <a href="#" class="active">Home</a>
+      <a href="chamber/index.html">Chamber</a>
+      <a href="week01/chamber-site-plan.html.html">Site Plan</a>
+      <a href="form.html">Form</a>
+    </nav>
+    <main>
+      <div class="hero">
+        <picture>
+          <source media="(max-width: 400px)" srcset="images/hero-small.webp" loading="lazy" />
+          <source media="(max-width: 960px)" srcset="images/hero-medium.webp" loading="lazy" />
+          <img src="images/hero-large.webp" alt="the best picture of Australia Melbourne Temple" loading="lazy" />
+        </picture>
+        <div class="hero-text">
+          <h4>Australia Melbourne Temple</h4>
         </div>
-        <div class="name">
-          <h1>Ari-John Katia</h1>
-        </div>
-        <div id="mode">🌙</div>
-      </header>
-      <button id="menu"></button>
-      <nav id="navigation">
-        <a href="#" class="active">Home</a>
-        <a href="chamber/index.html">Chamber</a>
-        <a href="week01/chamber-site-plan.html.html">Site Plan</a>
-        <a href="form.html">Form</a>
-      </nav>
-      <main>
-        <div class="hero">
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset="images/hero-small.webp"
-              loading="lazy" />
-            <source
-              media="(max-width: 960px)"
-              srcset="images/hero-medium.webp"
-              loading="lazy" />
-            <img
-              src="images/hero-large.webp"
-              alt="the best picture of Australia Melbourne Temple"
-              loading="lazy" />
-          </picture>
-          <div class="hero-text">
-            <h4>Australia Melbourne Temple</h4>
-          </div>
-        </div>
+      </div>
 
-        <h2>WDD 230: Web Frontend Development</h2>
+      <h2>WDD 230: Web Frontend Development</h2>
 
-        <section class="card">
-          <h3>Learning Activities</h3>
-          <ul>
-            <li>
-              Week 01: <a href="week01/holygrail.html">Layout</a> |
-              <a href="week01/media-query.html">Media Query</a> |
-              <a href="https://codepen.io/aj-kazza/pen/yLQNyMw">JS Pen</a>
-            </li>
-            <li>
-              Week 02: <a href="week02/design.html">Design Principles</a> |
-              <a href="https://codepen.io/aj-kazza/pen/KKrVJzb">Hamburger Pen</a>
-              | <a href="week02/bom.html">DOM Manipulation</a>
-            </li>
-            <li>
-              Week 03: <a href="week03/lazyload.html">Lazy Loading</a> |
-              <a href="week03/reponsive-images.html">Responsive Images</a> | <a href="week03/images/landscape.webp">WebP</a>
-            </li>
-            <li>Week 04:</li>
-            <li>Week 05:</li>
-            <li>Week 06:</li>
-          </ul>
-        </section>
-        <!--Some Weeks may need more than one activity/assignment link -->
+      <section class="card">
+        <h3>Learning Activities</h3>
+        <ul>
+          <li>
+            Week 01: <a href="week01/holygrail.html">Layout</a> |
+            <a href="week01/media-query.html">Media Query</a> |
+            <a href="https://codepen.io/aj-kazza/pen/yLQNyMw">JS Pen</a>
+          </li>
+          <li>
+            Week 02: <a href="week02/design.html">Design Principles</a> |
+            <a href="https://codepen.io/aj-kazza/pen/KKrVJzb">Hamburger Pen</a> |
+            <a href="week02/bom.html">DOM Manipulation</a>
+          </li>
+          <li>
+            Week 03: <a href="week03/lazyload.html">Lazy Loading</a> |
+            <a href="week03/reponsive-images.html">Responsive Images</a> | 
+            <a href="week03/images/landscape.webp">WebP</a> |
+          </li>
+          <li>Week 04: <a href="https://codepen.io/aj-kazza/pen/mdQBOLp">Pseudo-class Pen</a> | 
+            <a href="week04/images/screenshot.png">CSS Combinators</a> | 
+            <a href="week04/tablebuild.html">Table</a> |
+          </li>
+          <li>Week 05:</li>
+          <li>Week 06:</li>
+        </ul>
+      </section>
+      <!--Some Weeks may need more than one activity/assignment link -->
 
-        <section class="card">
-          <h3>Information</h3>
-          <p>Place</p>
-          <p>Temperature</p>
-          <p>Visits: <span class="visits"></span></p>
-        </section>
+      <section class="card">
+        <h3>Information</h3>
+        <p>Place</p>
+        <p>Temperature</p>
+        <p>Visits: <span class="visits"></span></p>
+      </section>
 
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7811.176104924193!2d173.08809142574466!3d1.365271927189023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2ski!4v1687482480052!5m2!1sen!2ski"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </main>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7811.176104924193!2d173.08809142574466!3d1.365271927189023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2ski!4v1687482480052!5m2!1sen!2ski"
+          width="600" height="450" style="border: 0" allowfullscreen loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </main>
 
-      <footer>
-        <div>
-          <p id="copy">
-            &copy; <span id="thisyear"></span> | Ari-John Katia | Kiribati
-          </p>
-          <p class="update">Last Updated: <span id="currentdate"></span></p>
-        </div>
-      </footer>
-    </div>
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/burger.js"></script>
-    <script src="scripts/toggle.js"></script>
-    <script src="scripts/visits.js"></script>
-  </body>
+    <footer>
+      <div>
+        <p id="copy">
+          &copy; <span id="thisyear"></span> | Ari-John Katia | Kiribati
+        </p>
+        <p class="update">Last Updated: <span id="currentdate"></span></p>
+      </div>
+    </footer>
+  </div>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/burger.js"></script>
+  <script src="scripts/toggle.js"></script>
+  <script src="scripts/visits.js"></script>
+</body>
+
 </html>

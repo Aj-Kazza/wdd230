@@ -57,7 +57,7 @@
     .poi picture:hover span {
         font-size: 1em;
         transition: 0.5s ease;
-        background-color:#fae3927e;
+        background-color:#fae392c0;
     }
     .poi picture:hover img {
         filter: blur(0em);

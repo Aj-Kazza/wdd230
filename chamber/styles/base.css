@@ -1,3 +1,14 @@
+:root {
+    --background: #FFD100;
+    --accents: #A31621;
+    --dark: #4A3C01;
+    --highlight: #FAE392;
+    --background2: #E0E0E0;
+}
+
+
+/*---UNIVERSAL STYLES FOR HEADER AND FOOTER----*/
+
 header,
 footer {
     background-color: #FFD100;    
@@ -89,10 +100,25 @@ footer p {
 }
 
 
+footer .copyright {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px black solid;
+}
+footer .bottomlogo h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+footer .bottomlogo h4 {
+    padding-top: 0;
+    margin-top: 0;
+}
 
 
 
-
+/*----UNIVERSAL STYLES FOR FONTS AND CONSTANTS----*/
 
 p, ul, li, nav{
     font-family: 'Montserrat', sans-serif;
@@ -108,6 +134,7 @@ main {
 }
 
 
+/*----STYLES FOR index.html----*/
 
 .hero-image {
     margin-top: 0;
@@ -170,6 +197,16 @@ main section h3,h4,p {
     padding: 0 15px;
 }
 
+#chamber .event img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+#chamber .event {
+    text-align: center;
+}
+
 .spotlight {
     background: none;
     border: none;
@@ -179,17 +216,54 @@ main section h3,h4,p {
 .spotlight div {
     background: #FAE392;
     border-radius: 20px;
+    text-align: center;
 }
 .spotlight div h3 {
     color: #a31621;
     text-align: center;
 }
+.spotlight img {
+    width: 50%;
+}
 
-main .calendar iframe {
+
+
+/*---STYLES FOR discover.html ---*/
+
+#discover .news {
+    text-align: center;
+}
+
+#discover .join button {
+    width: 95%;
+    font-size: 2rem;
+    background-color: var(--accents);
+    text-align: center;
+    color: var(--highlight);
+    border-radius: 10px;
+    margin: 5px;
+}
+#discover .join button:hover{
+    cursor: pointer;
+    background-color: var(--highlight);
+    color: var(--accents);
+}
+#discover .join {
+    text-align: center;
+}
+
+#discover .calendar iframe {
     width: 100%;
 }
 
-main .poi {
+#discover .event {
+    text-align: center;
+}
+#discover .event img{
+    width: 60%;
+}
+
+#discover .poi {
     padding: 10px;
     border: solid 1px #4A3C01;
     background-color: #4a3b015a;
@@ -198,30 +272,14 @@ main .poi {
     align-content: center;
     text-align: center;
 }
-main .poi picture img {
+#discover .poi picture img {
     width: 100%;
     height: auto;
 }
-main .poi picture {
+#discover .poi picture {
     display:block;
 }
 .poi span {
     background-color:#FAE392;
     padding: 5px;
-}
-
-footer .copyright {
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px black solid;
-}
-footer .bottomlogo h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-footer .bottomlogo h4 {
-    padding-top: 0;
-    margin-top: 0;
 }

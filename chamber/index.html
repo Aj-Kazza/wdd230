@@ -8,11 +8,11 @@
   <meta name="description" content="Chamber of Commerce homepage for Ari-John Katia in 
   WDD 230 - Web Frontend Development at Brigham Young University - Idaho online.">
   <meta name="author" content="Ari-John Katia">
-  <meta name="og:title" content="Chamber of Commerce - Tarawa">
+  <meta name="og:title" content="Chamber of Commerce - Tarawa || Discover">
   <meta name="og:type" content="website">
   <meta name="og:image"
     content="https://images.nightcafe.studio/jobs/ea44m8S8j5KX11jQTFDi/ea44m8S8j5KX11jQTFDi--3--7bzuw.jpg?tr=w-1600,c-at_max">
-  <meta name="og:url" content="https://aj-kazza.github.io/wdd230/chamber/index.html">
+  <meta name="og:url" content="https://aj-kazza.github.io/wdd230/chamber/discover.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
@@ -40,14 +40,17 @@
     <nav id="topnav">
       <a href="index.html" class="active">Home</a>
       <a href="discover.html">Discover</a>
-      <a href="#">Directory</a>
-      <a href="#">Join</a>
+      <a href="directory.html">Directory</a>
+      <a href="join.html">Join</a>
     </nav>
   </header>
 
-  <main>
+  <main id="chamber">
     <div class="hero-image">
-      <img src="images/beach.jpg" alt="picture of beach" loading="lazy">
+      <picture>
+        <source media="(max-width: 640px)" srcset="images/beach_small.webp" loading="lazy">
+        <img src="images/beach.webp" alt="" loading="lazy">
+      </picture>
       <div class="hero-text">
         <button class="join">Join Chamber</button>
       </div>
@@ -55,11 +58,16 @@
 
     <section class="event">
       <h2>Event</h2>
-      <h3>Event Name</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+      <div>
+        <h3>Thatching Ceremony - ✨ Maiana M'aneaba, Bairiki</h3>
+        <p>
+          Join us for the roof laying ceremony for the Maiana m'aneaba in Bikenibeu, Saturday 10am. <a href="#">more
+            info...</a>
+        </p>
+      </div>
+      <div>
+        <img src="images/maneaba.png" alt="">
+      </div>
     </section>
 
     <section class="weather">
@@ -75,25 +83,23 @@
     <section class="spotlight">
       <h2>Spotlight</h2>
       <div>
-        <h3>spotlight1</h3>
+        <h3>Seasonal Fishing</h3>
+        <img src="images/fish.png" alt="">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+          What's on the menu today? Enjoy easy access to seasonal fishes!        </p>
       </div>
       <div>
-        <h3>spotlight2</h3>
+        <h3>Store Construction</h3>
+        <img src="images/store.png" alt="">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+          Get started! Contructions to help you get your shop up and ready to go! </p>
       </div>
       <div>
-        <h3>spotlight3</h3>
+        <h3>Farmer's Market</h3>
+        <img src="images/produce.png" alt="">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+
+          Let's all go green! All local produce up for sale, all local produce up for grab!        </p>
       </div>
     </section>
   </main>

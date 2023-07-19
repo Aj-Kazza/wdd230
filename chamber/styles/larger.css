@@ -29,6 +29,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    /*--------HOMEPAGE----------*/
     .hero-image {
         grid-column: 1 / span 4;
     }
@@ -51,6 +53,8 @@
     .spotlight h2 {
         grid-column: 1 / span 4;
     }
+
+    /*-------DISCOVER----------*/
     main .poi {
         grid-column: 2 / span 3;
     }
@@ -85,6 +89,41 @@
         max-height: 500px;
         transition: 0.2 ease;
     }
+
+
+
+    /*-----------JOIN.HTML--------*/
+    #join {
+        column-gap: 20px;
+    }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    #join h2 {
+        grid-column: 1 / span 4;
+    }
+    #join form {
+        grid-column: 1 / span 1;
+    }
+    #join table {
+        grid-column: 2 / span 4;
+        width: 100%;
+    }
+
+    tr:first-child th, .highlight {
+        font-size: 2rem;
+    }
+    th {
+        font-size: 1.25rem;
+    }
+    td {
+        font-size: 1rem;
+    }
+
+
+
+
+    /*-------FOOTER----------*/
 
     footer .copyright .seps {
         display: flex;

@@ -419,6 +419,14 @@ tbody td:first-child {
     font-weight: bold;
 }
 
+/*---thankyou.html----*/
+#thankyou img{
+    width: 100%;
+}
+#thankyou h2 {
+    text-align: center;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

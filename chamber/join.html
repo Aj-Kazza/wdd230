@@ -51,7 +51,8 @@
                 <legend>Personal Information</legend>
                 <label class="top">First Name* <input type="text" name="firstname" id="fname" placeholder="Enter First Name" required></label>
                 <label class="top">Last Name* <input type="text" name="lasttname" id="lname" placeholder="Enter Last Name" required></label>
-                <label class="top">Title* <input type="text" name="titlepos" id="tpos" placeholder="Enter Title or Position" required></label>
+                <label class="top">Title* <input type="text" name="titlepos" id="tpos" placeholder="Enter Title or Position" required
+                    pattern="(?=.*[a-z])(?=.*[A-Z]).{7,}" title="must be a valid title"></label>
                 <label class="top">Email* <input type="email" name="email" id="email" title="Please enter a valid email address" placeholder="someone@email.com" required></label>
                 <label class="top">Phone <input type="tel" name="phone" placeholder="1234512345"></label>
             </fieldset>

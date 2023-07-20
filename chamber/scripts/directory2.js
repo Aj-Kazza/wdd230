@@ -16,12 +16,12 @@ const displayMembers = (members) => {
     members.forEach((member) => {
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
-        let fullName = document.createElement('h3'); // fill in the blank
+        let fullName = document.createElement('h2'); // fill in the blank
         let logo = document.createElement('img');
         let address = document.createElement('p');
         let phone = document.createElement('p');
         let url = document.createElement('a');
-        let level = document.createElement('p');
+        let level = document.createElement('h4');
 
 
         // Build the h2 content out to show the member's full name
@@ -32,18 +32,20 @@ const displayMembers = (members) => {
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '340');
         logo.setAttribute('height', '440');
-        address.textContent = `${member.birthdate}`;
-        phone.textContent = `${member.birthplace}`;
+        address.textContent = `${member.address}`;
+        phone.textContent = `${member.phone}`;
         url.textContent = `${member.website}`;
         url.setAttribute('src', member.website)
-        level.textContent = 
+        level.textContent = `${member.level}`
 
         // Append the section(card) with the created elements
+        
         card.appendChild(fullName); //fill in the blank
         card.appendChild(logo);
         card.appendChild(address)
         card.appendChild(phone)
         card.appendChild(url)
+        card.appendChild(level)
 
         cards.appendChild(card);
     }); // end of arrow function and forEach loop

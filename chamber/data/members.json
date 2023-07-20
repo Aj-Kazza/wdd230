@@ -5,7 +5,7 @@
             "address":"Abarao",
             "phone":"79045882",
             "website":"pintech.ki",
-            "image":"",
+            "image":"./images/pintech.png",
             "level":"Silver",
             "type":"Electronics"
         },
@@ -14,7 +14,7 @@
             "address":"Ambo",
             "phone":"79053442",
             "website":"bettytrading.ki",
-            "image":"",
+            "image":"./images/betty.png",
             "level":"Gold",
             "type":"Wholesale/Hardware"
         },
@@ -23,7 +23,7 @@
             "address":"Abarao",
             "phone":"70999821",
             "website":"jmrgroup.ki",
-            "image":"",
+            "image":"./images/jmr.png",
             "level":"Gold",
             "type":"Wholesale"
         },
@@ -32,7 +32,7 @@
             "address":"Bikenibeu",
             "phone":"79025125",
             "website":"tentanini.ki",
-            "image":"",
+            "image":"./images/tanini.png",
             "level":"Silver",
             "type":"Electronics"
         },
@@ -41,7 +41,7 @@
             "address":"Temwaiku",
             "phone":"79045624",
             "website":"iggarden.ki",
-            "image":"",
+            "image":"./images/garden.png",
             "level":"Non-Profit",
             "type":"Produce"
         },
@@ -50,7 +50,7 @@
             "address":"Bairiki",
             "phone":"79000122",
             "website":"coconect.ki",
-            "image":"",
+            "image":"./images/coconect.png",
             "level":"Silver",
             "type":"Communications"
         },
@@ -59,7 +59,7 @@
             "address":"Betio",
             "phone":"79077234",
             "website":"betiostarart.ki",
-            "image":"",
+            "image":"./images/starmart.png",
             "level":"Bronze",
             "type":"Retail"
         }

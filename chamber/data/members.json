@@ -1,0 +1,68 @@
+{
+    "members": [
+        {
+            "name":"Pintech",
+            "address":"Abarao",
+            "phone":"79045882",
+            "website":"pintech.ki",
+            "image":"",
+            "level":"Silver",
+            "type":"Electronics"
+        },
+        {
+            "name":"Betty Trading",
+            "address":"Ambo",
+            "phone":"79053442",
+            "website":"bettytrading.ki",
+            "image":"",
+            "level":"Gold",
+            "type":"Wholesale/Hardware"
+        },
+        {
+            "name":"JMR",
+            "address":"Abarao",
+            "phone":"70999821",
+            "website":"jmrgroup.ki",
+            "image":"",
+            "level":"Gold",
+            "type":"Wholesale"
+        },
+        {
+            "name":"Tanini",
+            "address":"Bikenibeu",
+            "phone":"79025125",
+            "website":"tentanini.ki",
+            "image":"",
+            "level":"Silver",
+            "type":"Electronics"
+        },
+        {
+            "name":"IG Garden",
+            "address":"Temwaiku",
+            "phone":"79045624",
+            "website":"iggarden.ki",
+            "image":"",
+            "level":"Non-Profit",
+            "type":"Produce"
+        },
+        {
+            "name":"Coconect",
+            "address":"Bairiki",
+            "phone":"79000122",
+            "website":"coconect.ki",
+            "image":"",
+            "level":"Silver",
+            "type":"Communications"
+        },
+        {
+            "name":"Starmart",
+            "address":"Betio",
+            "phone":"79077234",
+            "website":"betiostarart.ki",
+            "image":"",
+            "level":"Bronze",
+            "type":"Retail"
+        }
+    
+    ]
+}

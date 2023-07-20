@@ -72,29 +72,36 @@
           </li>
           <li>
             Week 03: <a href="week03/lazyload.html">Lazy Loading</a> |
-            <a href="week03/reponsive-images.html">Responsive Images</a> | 
-            <a href="week03/images/landscape.webp">WebP</a> | 
+            <a href="week03/reponsive-images.html">Responsive Images</a> |
+            <a href="week03/images/landscape.webp">WebP</a> |
             <a href="week03/bom.html">Web API</a>
           </li>
-          <li>Week 04: <a href="https://codepen.io/aj-kazza/pen/mdQBOLp">Pseudo-class Pen</a> | 
-            <a href="week04/images/screenshot.png">CSS Combinators</a> | 
-            <a href="week04/tablebuild.html">Table</a> | 
+          <li>Week 04: <a href="https://codepen.io/aj-kazza/pen/mdQBOLp">Pseudo-class Pen</a> |
+            <a href="week04/images/screenshot.png">CSS Combinators</a> |
+            <a href="week04/tablebuild.html">Table</a> |
             <a href="form-start/index.html">HTML Form</a>
           </li>
-          <li>Week 05: <a href="https://codepen.io/aj-kazza/pen/RwqyExx">Pseudo-Element Pen</a> | 
-            <a href="week05/new-ward-members.json">JSON</a> | 
-            
-          </li> 
+          <li>Week 05: <a href="https://codepen.io/aj-kazza/pen/RwqyExx">Pseudo-Element Pen</a> |
+            <a href="week05/new-ward-members.json">JSON</a> | <a href="week05/weather.html">Weather API</a>
+
+          </li>
           <li>Week 06:</li>
         </ul>
       </section>
       <!--Some Weeks may need more than one activity/assignment link -->
 
-      <section class="card">
+      <section class="temp">
         <h3>Information</h3>
-        <p>Place</p>
-        <p>Temperature</p>
-        <p>Visits: <span class="visits"></span></p>
+        <figure>
+          <img id="weather-icon" src="" alt="">
+          <figcaption></figcaption>
+        </figure>
+        <div>
+          <p>Tarawa</p>
+          <p>Temperature: <span id="current-temp"></span></p>
+          </p>
+          <p>Visits: <span class="visits"></span></p>
+        </div>
       </section>
 
       <div class="map">
@@ -118,6 +125,7 @@
   <script src="scripts/burger.js"></script>
   <script src="scripts/toggle.js"></script>
   <script src="scripts/visits.js"></script>
+  <script src="scripts/weather.js"></script>
 </body>
 
 </html>

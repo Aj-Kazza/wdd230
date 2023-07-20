@@ -87,7 +87,7 @@ footer {
     font-size: 0.8rem;
 }
 
-.card {
+section {
     border: solid 1px #4A3C01;
     border-radius:2%;
     margin: 10px;
@@ -102,6 +102,33 @@ footer {
     margin: 1rem auto;
     width: 75%;
 }
+.temp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.temp h3 {
+    grid-column: 1 / span 2;
+}
+.temp figure {
+    text-align: center;
+}
+.temp figure img {
+    width: 90%;
+}
+.temp figure figcaption {
+    color: #ffea84;
+    background-color: black;
+}
+.temp div p {
+    font-weight: bolder;
+}
+.temp div p:first-child {
+    font-size: 2rem;
+}
+.temp div span {
+    color: blue;
+}
+
 
 h4 {
     padding: 0.5rem;

@@ -13,18 +13,21 @@ async function getLinks() {
 getLinks();
 
 const displayLinks = (weeks) => {
-    weeks.forEach((week) => {
+    weeks.forEach((wek) => {
+        let weekname = document.createElement('li')
+        
+        console.log(wek.week)
+        weekname.textContent = wek.week
+        displayTopics(wek.links)
 
-        console.log(week)
-        console.log(week.week)
-
-
-
+        cards.appendChild(weekname)
     });
 }
-
-const displayAppend = (links) => {
-    links.forEach((link) => {
-        console.log(link)
+const displayTopics = (lists) => {
+    lists.forEach((list) => {
+        let a = document.createElement('a')
+        console.log(list.title)
+        a.setAttribute('href', list.url)
+        a.textContent = list.title
     })
 }
